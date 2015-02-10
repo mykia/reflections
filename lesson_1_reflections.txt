@@ -1,0 +1,31 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using the diff command made finding the differences between the two files easier and faster.  Actually, I couldn't find the typo in the new file until I downloaded the files and ran the diff command.  I think this will be very helpful in the future, because I many times the errors that I have are because of typos and this command will make it easier to find and correct those issues.
+
+2. How could having easy access to the entire history of a    
+   file make you a more efficient programmer in the long term?
+
+    Having the history of the file available can make seeing revisions easier.  Also, if you wanted to go back to a previous version of that file, you can go to your history and restore a previous version.
+
+3. What do you think are the pros and cons of manually choosing 	
+   when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    The pros of manually choosing when to save commits is that you have the control to save the commit at a logical point and not cluttering your version control with unnecessarily saved versions.  The con is that you may not save at the right time.  You may save to often or not often enough and that could make changes difficult to understand.  I know personally, I struggle with saving things at the right point, so that's an issue I will have to deal with.  
+
+4.	Why do you think some version control systems, like Git, allow saving multiple
+		files in one commit, while others, like Google Docs, treat each file separately?
+
+    It depends on the type of files you are saving.  Most of the time when you are coding, you will have multiple files that are related to each other and the change you make in one file could affect the other related files.  Saving them all together makes it easier to track the changes you've made to your related files.  Most version control systems that are similar to Google Docs were not created for coding/programming purposes so it is likely that there won't be multiple files that are interdependent, so it may be easier to save and track those files separately.
+
+5.	How can you use the commands git log and git diff to view the history of files?
+
+    These two commands help to track the changes to your commits and the differences/changes that have been made between two commits.
+
+6.	How might using version control make you more confident to make changes that
+		could break something?
+
+    Version control can make you more confident because if a change you make breaks something you can track down the file that has the buggy change and fix it.  You can revert back to your previous bug-free file.  That should give you the confidence to explore and make changes without fear of totally and irreparably damaging your program.
+
+7.	Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git to keep track of my projects.
